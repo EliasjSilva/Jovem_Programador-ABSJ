@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1)0%,rgba(67, 67, 162,1)47%, rgba(0, 212, 255,1)100%);
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+nav img{
+    height: 60px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(2, 0, 36);
+    margin: 10px;
+}
+nav h1{
+    font-size: 20px;
+}
+header{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.header-content h2{
+    font-size: 50px;
+}
+.header-img img{
+    height: 400px;
+    opacity: .7;
+    border-radius: 100% 0% 53% 47% / 63% 2% 98% 37%;   
+    animation: movimento 5s infinite alternate;
+}
+
+@keyframes movimento {
+    0%, 100%{
+        border-radius: 88% 36% 25% 10% / 89% 78% 27% 34% ;
+        box-shadow: 0px 0px 100px white;
+    }50%{
+        border-radius: 46% 24% 38% 12% / 59% 23% 47% 51% ;
+        box-shadow: 0px 0px 100px white;
+    }
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.apresentacao{
+    display: flex;
+    align-items: center;
+}
+.conte-conosco{
+    width: 40%;
+}
+.conte-conosco h3{
+    font-size: 35px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.conte-conosco img{
+    height: 70%;
+    width: 100%;
+    border-radius: 100% 0% 53% 47% / 48% 0% 100% 52%  ;
+}
+.filosofia{
+    width: 60%;
+}
+.filosofia p{
+    font-size: 50px;
+    padding: 10px 50px;
+    line-height: 45px;
+    text-align: justify;
+}
+.barra{
+    height: 2px;
+    width: 80%;
+    margin: 100px auto;
+    background-color: white;
+}
+.produtos h3{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 10px 50px;
+    border: 1px solid;
+}
+.produtos p{
+    font-size: 20px;
+    margin-top: 30px;
+    text-indent: 50px;
+}
+.produtos  .banners{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+.banner{
+    border: 1px solid ;
+    background-color: white;
+    margin: 50px;
+    width: 30%;
+    height: 200px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.banner p{
+    color: #3d3d97;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600px;
+    margin: 33px 0px;
+    padding-right: 50px;
+    
+}
+.banner .btn{
+    color: white;
+    background-color: #3d3d97;
+    padding: 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.barra{
+    height: 1px;
+    background-color: aliceblue;
+    width: 80%;
+}
+.projetos{
+    margin: 100px 0;
+}
+.projetos h3{
+    font-size: 30px;
+}
+.banners-projetos{
+    display: flex;
+    justify-content: space-around;
+}
+.banner-projeto{
+    /*  */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.banner-projeto img{
+    width: 80%;
+}
+footer{
+    width: 80%;
+    margin: 50px auto;
+}
+footer h4{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+footer a{
+    text-decoration: none;
+}
+.contatos{
+    border: 1px solid white;
+    width: 40%;
+    padding: 10px;
+}
+.formulario-fixo{
+    display: none;
+}
+.formulario{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: #3d3d97;
+    border-radius: 50%;
+}
+
+/*Responsividade*/
+@media screen and (max-width:390px) {
+    header{
+        width: 90%;
+        flex-direction: column;
+    }
+    .header-content h2{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 70px;
+        position: relative;
+        z-index: 1;
+    }
+    .header-img img{
+        position: absolute;
+        height: 250px;
+        top: 150px;
+        right: 90px;
+    }
+    section{
+        width: 90%;
+    }
+    .apresentacao{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .conte-conosco{
+        width: 100%;
+    }
+    .conte-conosco img{
+        width: 200px;
+        margin-top: 50px;
+    }
+    .img{
+        padding-left:calc(40%/2);
+    }
+    .filosofia{
+        width: 90%;
+    }
+    .filosofia p{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .produtos h3{
+        font-size: 25px;
+        border-radius: 5px;
+    }
+    .banners{
+        flex-direction: column;
+        margin-top: 50px;
+        border-radius: 5px;
+    }
+    .banner{
+        margin: 10px auto;
+        width: 200px;
+        border-radius: 5px;
+    }
+    .banner .btn{
+        border-radius: 10px;
+    }
+    .banners-projetos{
+        flex-direction: column;
+    }
+    .banner-projeto{
+        width: 100%;
+    }
+    footer{
+        width: 90%;
+        margin: none;
+    }
+    footer h4{
+        text-align: center;
+    }
+    .contatos{
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .contato p {
+        line-height: 10px;
+    }
+    .formulario{
+        display: none;
+    }
+    .formulario-fixo{
+        display: block;
+    }
+}

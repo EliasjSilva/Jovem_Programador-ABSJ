@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-image: url(imagens/wood-gba78b40c9_640.jpg);
+    box-sizing: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Pangolin', cursive;
+}
+.d1{
+    background: url(imagens/bird2.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 30%;
+    margin-top: 40px;
+    background-attachment: fixed;
+    height: 700px;
+    width: 98%;
+}
+.d1 h1{
+    font-size: 700%;
+    font-family: 'Pacifico', cursive;
+}
+.d1 span{
+    font-size: 35px;
+}
+.d1-content{
+    top: 400px;
+}
+.d2{
+    height: 700px;
+}
+.d2 h2{
+    font-family: 'Pacifico', cursive;
+}
+.d3{
+    background-color: #ffffffaa;
+    margin: 150px 0px;
+    border-radius: 20px;
+    text-align: justify;
+}
+.d3-1{
+    background-color: #ffffffaa;
+    border-radius: 20px;
+    text-align: justify;
+}
+.img1{
+    border-radius: 10px;
+}
+.img2{
+    border-radius: 10px;
+    width: 400px;
+}
+.div-img{
+    vertical-align: middle;
+}
+.d4{
+    height: 500px;
+    background: url(imagens/galho.jpg) no-repeat;
+    border-radius: 10px;
+    width: 1000px;
+}
