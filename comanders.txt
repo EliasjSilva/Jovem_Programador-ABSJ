@@ -1,0 +1,12 @@
+Virtual Enviroment (Ambiente Virtual) - django - Framework do Python
+(PASTA/PROJETO tem que estar VERDE ou NOME NO COMEÇO DA PASTA no terminal quando usar)
+
+
+python -m venv nome-da-sua-pasta - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - (Cria a pasta a ser usada como ambiente virtual)
+nome-da-sua-pasta\scripts\activate - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - (Ativar a pasta/projeto)
+pip install django - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - (istalar o django no projeto atual)
+djang-admin - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -(django opções de comandos)
+django-admin startproject <nome-do-projeto> . {(setup) (core)} - - - - - - - - - - - - - - - - - - (inicializaçõa do projeto / nome do projeto / sugestões de nomes comuns)
+django-admin startapp <nome-do-projeto> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -(Criação do app / nome do app)
+python manage.py runserver - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - (iniciar o app/servidor clicando crtl + click no link)
+deactivate - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - (Desativa a venv{pasta/projeto})
